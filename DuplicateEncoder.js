@@ -24,7 +24,7 @@ function duplicateEncode(word){
       finalString += '(';
     }
   }
-  return finalString
+  return finalString;
 }
 
 
