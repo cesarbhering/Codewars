@@ -1,23 +1,23 @@
 function duplicateCount(text) {
-  dict = []
-  countRepeat = 0
-  text = text.toLowerCase()
+  dict = [];
+  countRepeat = 0;
+  text = text.toLowerCase();
   for (let n of text) {
-    dict[n] = 0
+    dict[n] = 0;
   }
   for (n of text) {
     for (let letter2 of text) {
       if (n === letter2) {
-        dict[n] += 1
+        dict[n] += 1;
       }
     }
   }
   for (let value of Object.values(dict)) {
     if (value > 1) {
-      countRepeat += 1
+      countRepeat += 1;
     }
   }
-  return countRepeat
+  return countRepeat;
 }
 
 
