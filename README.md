@@ -1,2 +1,2 @@
 # Codewars
-## Katas dos Codewars realizados em JavaScript.
+Katas dos Codewars realizados em JavaScript.
