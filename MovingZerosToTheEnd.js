@@ -2,7 +2,6 @@
 
 var moveZeros = function (arr) {
   // TODO: Program me
-  let lastPos = arr.length -1;
   arr.forEach(element => {
     if (element === 0) {
       arr.splice(arr.indexOf(element), 1);
